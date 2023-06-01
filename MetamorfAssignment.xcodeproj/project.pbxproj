@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2B13B92A2896F50059D559 /* NameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13B82A2896F50059D559 /* NameModel.m */; };
+		2B2B13BC2A2897120059D559 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13BB2A2897120059D559 /* LocationModel.m */; };
+		2B2B13BF2A28971F0059D559 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13BE2A28971F0059D559 /* LoginModel.m */; };
+		2B2B13C22A2897310059D559 /* DobModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13C12A2897310059D559 /* DobModel.m */; };
+		2B2B13C52A2897400059D559 /* RegisteredModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13C42A2897400059D559 /* RegisteredModel.m */; };
+		2B2B13C82A2897540059D559 /* IdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13C72A2897540059D559 /* IdModel.m */; };
+		2B2B13CB2A2897620059D559 /* PictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13CA2A2897620059D559 /* PictureModel.m */; };
+		2B2B13CE2A28A1370059D559 /* StreetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B13CD2A28A1370059D559 /* StreetModel.m */; };
+		2B641CDF2A29052700DE73E4 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B641CDE2A29052700DE73E4 /* DetailsViewController.xib */; };
+		2B641CE62A290B2E00DE73E4 /* UserListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B641CE52A290B2E00DE73E4 /* UserListModel.m */; };
+		2B641CE92A290B9900DE73E4 /* UserListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B641CE82A290B9900DE73E4 /* UserListViewModel.m */; };
+		2BFA94722A27C360000C981B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA94712A27C360000C981B /* AppDelegate.m */; };
+		2BFA94752A27C360000C981B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA94742A27C360000C981B /* SceneDelegate.m */; };
+		2BFA947B2A27C360000C981B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA94792A27C360000C981B /* Main.storyboard */; };
+		2BFA947E2A27C360000C981B /* MetamorfAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA947C2A27C360000C981B /* MetamorfAssignment.xcdatamodeld */; };
+		2BFA94802A27C362000C981B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA947F2A27C362000C981B /* Assets.xcassets */; };
+		2BFA94832A27C362000C981B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA94812A27C362000C981B /* LaunchScreen.storyboard */; };
+		2BFA94862A27C362000C981B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA94852A27C362000C981B /* main.m */; };
+		2BFA948E2A27C396000C981B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA948D2A27C396000C981B /* ListViewController.m */; };
+		2BFA94912A27C3F0000C981B /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA94902A27C3F0000C981B /* UserTableViewCell.m */; };
+		2BFA94A02A27D108000C981B /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA949F2A27D108000C981B /* WebServiceManager.m */; };
+		2BFA94A92A285F6A000C981B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA94A82A285F6A000C981B /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B2B13B72A2896F50059D559 /* NameModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NameModel.h; sourceTree = "<group>"; };
+		2B2B13B82A2896F50059D559 /* NameModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NameModel.m; sourceTree = "<group>"; };
+		2B2B13BA2A2897120059D559 /* LocationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		2B2B13BB2A2897120059D559 /* LocationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		2B2B13BD2A28971F0059D559 /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		2B2B13BE2A28971F0059D559 /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		2B2B13C02A2897310059D559 /* DobModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DobModel.h; sourceTree = "<group>"; };
+		2B2B13C12A2897310059D559 /* DobModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DobModel.m; sourceTree = "<group>"; };
+		2B2B13C32A2897400059D559 /* RegisteredModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteredModel.h; sourceTree = "<group>"; };
+		2B2B13C42A2897400059D559 /* RegisteredModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisteredModel.m; sourceTree = "<group>"; };
+		2B2B13C62A2897540059D559 /* IdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdModel.h; sourceTree = "<group>"; };
+		2B2B13C72A2897540059D559 /* IdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdModel.m; sourceTree = "<group>"; };
+		2B2B13C92A2897620059D559 /* PictureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureModel.h; sourceTree = "<group>"; };
+		2B2B13CA2A2897620059D559 /* PictureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureModel.m; sourceTree = "<group>"; };
+		2B2B13CC2A28A1370059D559 /* StreetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StreetModel.h; sourceTree = "<group>"; };
+		2B2B13CD2A28A1370059D559 /* StreetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreetModel.m; sourceTree = "<group>"; };
+		2B641CDE2A29052700DE73E4 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		2B641CE42A290B2E00DE73E4 /* UserListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserListModel.h; sourceTree = "<group>"; };
+		2B641CE52A290B2E00DE73E4 /* UserListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserListModel.m; sourceTree = "<group>"; };
+		2B641CE72A290B9900DE73E4 /* UserListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserListViewModel.h; sourceTree = "<group>"; };
+		2B641CE82A290B9900DE73E4 /* UserListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserListViewModel.m; sourceTree = "<group>"; };
+		2BFA946D2A27C360000C981B /* MetamorfAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetamorfAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFA94702A27C360000C981B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BFA94712A27C360000C981B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BFA94732A27C360000C981B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2BFA94742A27C360000C981B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2BFA947A2A27C360000C981B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BFA947D2A27C360000C981B /* MetamorfAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MetamorfAssignment.xcdatamodel; sourceTree = "<group>"; };
+		2BFA947F2A27C362000C981B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BFA94822A27C362000C981B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BFA94842A27C362000C981B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFA94852A27C362000C981B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BFA948C2A27C396000C981B /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		2BFA948D2A27C396000C981B /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		2BFA948F2A27C3F0000C981B /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		2BFA94902A27C3F0000C981B /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		2BFA949F2A27D108000C981B /* WebServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		2BFA94A12A27D146000C981B /* WebServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		2BFA94A72A285F69000C981B /* MetamorfAssignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetamorfAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BFA94A82A285F6A000C981B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BFA946A2A27C360000C981B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BFA94642A27C360000C981B = {
+			isa = PBXGroup;
+			children = (
+				2BFA946F2A27C360000C981B /* MetamorfAssignment */,
+				2BFA946E2A27C360000C981B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BFA946E2A27C360000C981B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA946D2A27C360000C981B /* MetamorfAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BFA946F2A27C360000C981B /* MetamorfAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94952A27C9E1000C981B /* Application */,
+				2BFA94962A27CA4C000C981B /* APIService */,
+				2BFA94972A27CA76000C981B /* MetamorfAssignment */,
+				2BFA949D2A27CB4E000C981B /* Storyboard */,
+				2BFA949B2A27CB0B000C981B /* Resources */,
+				2BFA94852A27C362000C981B /* main.m */,
+				2BFA94842A27C362000C981B /* Info.plist */,
+				2BFA949C2A27CB35000C981B /* CoreDataBase */,
+			);
+			path = MetamorfAssignment;
+			sourceTree = "<group>";
+		};
+		2BFA94922A27C9B9000C981B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94932A27C9C4000C981B /* Controller */,
+				2BFA94942A27C9CE000C981B /* View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BFA94932A27C9C4000C981B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA948C2A27C396000C981B /* ListViewController.h */,
+				2BFA948D2A27C396000C981B /* ListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BFA94942A27C9CE000C981B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA948F2A27C3F0000C981B /* UserTableViewCell.h */,
+				2BFA94902A27C3F0000C981B /* UserTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BFA94952A27C9E1000C981B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94702A27C360000C981B /* AppDelegate.h */,
+				2BFA94712A27C360000C981B /* AppDelegate.m */,
+				2BFA94732A27C360000C981B /* SceneDelegate.h */,
+				2BFA94742A27C360000C981B /* SceneDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2BFA94962A27CA4C000C981B /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94A12A27D146000C981B /* WebServiceManager.h */,
+				2BFA949F2A27D108000C981B /* WebServiceManager.m */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		2BFA94972A27CA76000C981B /* MetamorfAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94A72A285F69000C981B /* MetamorfAssignment-Bridging-Header.h */,
+				2BFA94982A27CAAD000C981B /* UserList */,
+				2BFA94AA2A285FB6000C981B /* Details */,
+			);
+			path = MetamorfAssignment;
+			sourceTree = "<group>";
+		};
+		2BFA94982A27CAAD000C981B /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94992A27CAC5000C981B /* Model */,
+				2BFA94922A27C9B9000C981B /* View */,
+				2BFA949A2A27CAD2000C981B /* ViewModel */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		2BFA94992A27CAC5000C981B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B641CE42A290B2E00DE73E4 /* UserListModel.h */,
+				2B641CE52A290B2E00DE73E4 /* UserListModel.m */,
+				2B2B13B72A2896F50059D559 /* NameModel.h */,
+				2B2B13B82A2896F50059D559 /* NameModel.m */,
+				2B2B13BA2A2897120059D559 /* LocationModel.h */,
+				2B2B13BB2A2897120059D559 /* LocationModel.m */,
+				2B2B13BD2A28971F0059D559 /* LoginModel.h */,
+				2B2B13BE2A28971F0059D559 /* LoginModel.m */,
+				2B2B13C02A2897310059D559 /* DobModel.h */,
+				2B2B13C12A2897310059D559 /* DobModel.m */,
+				2B2B13C32A2897400059D559 /* RegisteredModel.h */,
+				2B2B13C42A2897400059D559 /* RegisteredModel.m */,
+				2B2B13C62A2897540059D559 /* IdModel.h */,
+				2B2B13C72A2897540059D559 /* IdModel.m */,
+				2B2B13C92A2897620059D559 /* PictureModel.h */,
+				2B2B13CA2A2897620059D559 /* PictureModel.m */,
+				2B2B13CC2A28A1370059D559 /* StreetModel.h */,
+				2B2B13CD2A28A1370059D559 /* StreetModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BFA949A2A27CAD2000C981B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2B641CE72A290B9900DE73E4 /* UserListViewModel.h */,
+				2B641CE82A290B9900DE73E4 /* UserListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2BFA949B2A27CB0B000C981B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA947F2A27C362000C981B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BFA949C2A27CB35000C981B /* CoreDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA947C2A27C360000C981B /* MetamorfAssignment.xcdatamodeld */,
+			);
+			path = CoreDataBase;
+			sourceTree = "<group>";
+		};
+		2BFA949D2A27CB4E000C981B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94792A27C360000C981B /* Main.storyboard */,
+				2BFA94812A27C362000C981B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2BFA94AA2A285FB6000C981B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2BFA94A82A285F6A000C981B /* DetailsViewController.swift */,
+				2B641CDE2A29052700DE73E4 /* DetailsViewController.xib */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BFA946C2A27C360000C981B /* MetamorfAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFA94892A27C362000C981B /* Build configuration list for PBXNativeTarget "MetamorfAssignment" */;
+			buildPhases = (
+				2BFA94692A27C360000C981B /* Sources */,
+				2BFA946A2A27C360000C981B /* Frameworks */,
+				2BFA946B2A27C360000C981B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetamorfAssignment;
+			productName = MetamorfAssignment;
+			productReference = 2BFA946D2A27C360000C981B /* MetamorfAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BFA94652A27C360000C981B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2BFA946C2A27C360000C981B = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = 2BFA94682A27C360000C981B /* Build configuration list for PBXProject "MetamorfAssignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BFA94642A27C360000C981B;
+			productRefGroup = 2BFA946E2A27C360000C981B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BFA946C2A27C360000C981B /* MetamorfAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BFA946B2A27C360000C981B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFA94832A27C362000C981B /* LaunchScreen.storyboard in Resources */,
+				2B641CDF2A29052700DE73E4 /* DetailsViewController.xib in Resources */,
+				2BFA94802A27C362000C981B /* Assets.xcassets in Resources */,
+				2BFA947B2A27C360000C981B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BFA94692A27C360000C981B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B641CE92A290B9900DE73E4 /* UserListViewModel.m in Sources */,
+				2B641CE62A290B2E00DE73E4 /* UserListModel.m in Sources */,
+				2B2B13CE2A28A1370059D559 /* StreetModel.m in Sources */,
+				2BFA94862A27C362000C981B /* main.m in Sources */,
+				2B2B13BF2A28971F0059D559 /* LoginModel.m in Sources */,
+				2B2B13C82A2897540059D559 /* IdModel.m in Sources */,
+				2BFA948E2A27C396000C981B /* ListViewController.m in Sources */,
+				2BFA94A02A27D108000C981B /* WebServiceManager.m in Sources */,
+				2B2B13CB2A2897620059D559 /* PictureModel.m in Sources */,
+				2BFA94912A27C3F0000C981B /* UserTableViewCell.m in Sources */,
+				2B2B13C52A2897400059D559 /* RegisteredModel.m in Sources */,
+				2BFA94722A27C360000C981B /* AppDelegate.m in Sources */,
+				2BFA94752A27C360000C981B /* SceneDelegate.m in Sources */,
+				2BFA947E2A27C360000C981B /* MetamorfAssignment.xcdatamodeld in Sources */,
+				2B2B13BC2A2897120059D559 /* LocationModel.m in Sources */,
+				2B2B13C22A2897310059D559 /* DobModel.m in Sources */,
+				2B2B13B92A2896F50059D559 /* NameModel.m in Sources */,
+				2BFA94A92A285F6A000C981B /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BFA94792A27C360000C981B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFA947A2A27C360000C981B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BFA94812A27C362000C981B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFA94822A27C362000C981B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BFA94872A27C362000C981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BFA94882A27C362000C981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BFA948A2A27C362000C981B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FHLY8LV4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetamorfAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gkp.MetamorfAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MetamorfAssignment/MetamorfAssignment/MetamorfAssignment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BFA948B2A27C362000C981B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4FHLY8LV4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetamorfAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gkp.MetamorfAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MetamorfAssignment/MetamorfAssignment/MetamorfAssignment-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BFA94682A27C360000C981B /* Build configuration list for PBXProject "MetamorfAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFA94872A27C362000C981B /* Debug */,
+				2BFA94882A27C362000C981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFA94892A27C362000C981B /* Build configuration list for PBXNativeTarget "MetamorfAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFA948A2A27C362000C981B /* Debug */,
+				2BFA948B2A27C362000C981B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BFA947C2A27C360000C981B /* MetamorfAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BFA947D2A27C360000C981B /* MetamorfAssignment.xcdatamodel */,
+			);
+			currentVersion = 2BFA947D2A27C360000C981B /* MetamorfAssignment.xcdatamodel */;
+			path = MetamorfAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BFA94652A27C360000C981B /* Project object */;
+}
